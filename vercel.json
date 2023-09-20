@@ -1,5 +1,11 @@
 {
-  "rewrites": [
-    {"source": "/(.*)", "destination": "https://1.11chat.cc/$1"}
-  ]
+    "routes":[
+        {
+            "src":"/(.*)",
+            "status":307,
+            "headers":{
+                "location":"https://1.1ai.ink/$1"
+            }
+        }
+    ]
 }
