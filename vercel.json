@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    {"source": "/(.*)", "destination": "https://1.11chat.cc/$1"}
+  ]
+}
